@@ -1,0 +1,113 @@
+/* INICIO MEDIA QUERIES */
+    /* MEDIA QUERIES MOBILE S */
+    @media (min-width: 320px){
+        h1{
+            font-size: 70px;
+            text-align: center;
+            background-size: cover;
+            padding: 70px;
+        }
+        iframe{
+            height: 300px;
+            width: 300px;
+            padding-left: 20px;
+            padding-bottom: 20px;
+        }
+        .tarjetas_productos{
+            display: grid;
+            justify-content: center;
+        }
+        .tarjeta_img{
+            width: 280px;
+            padding: 15px 15px 10px 15px;
+        }
+        .tarjeta_container{
+            border-radius: 10px;
+        }
+    }
+    /* MEDIA QUERIES MOBILE M */
+    @media (min-width: 375px){
+        h1{
+            font-size: 70px;
+            text-align: center;
+            padding: 70px;
+        }
+        iframe{
+            height: 350px;
+            width: 350px;
+            padding-left: 20px;
+            padding-bottom: 20px;
+        }
+        .tarjeta_img{
+            width: 320px;
+        }
+    }
+    /* MEDIA QUERIES MOBILE L */
+    @media (min-width: 425px){
+        h1{
+            font-size: 80px;
+            padding: 80px;
+            text-align: center;
+        }
+        iframe{
+            width: 400px;
+            height: 400px;
+            padding-left: 20px;
+            padding-bottom: 20px;
+        }
+        .tarjeta_img{
+            width: 360px;
+            border-radius: 10px;
+        }
+    }
+    /* MEDIA QUERIES TABLET */
+    @media (min-width: 768px){
+        h1{
+            font-size: 120px;
+        }
+        iframe{
+            width: 710px;
+            height: 500px;
+            padding-left: 50px;
+        }
+    }
+    /* MEDIA QUERIES LAPTOP */
+    @media (min-width: 1024px){
+        h1{
+            font-size: 160px;
+            padding: 110px;
+        }
+        .tarjetas_productos{
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: space-evenly;
+        }
+        .tarjeta_img{
+            width: 400px;
+            padding: 20px 20px 10px 20px;
+            border-radius: 10px;
+        }
+        iframe{
+            width: 970px;
+            height: 600px;
+            padding-left: 50px;
+        }
+    }
+    /* MEDIA QUERIES LAPTOP L */
+    @media (min-width: 1440px){
+        h1{
+            font-size: 180px;
+            padding: 180px;
+        }
+        .tarjetas_productos{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-content: space-evenly;
+        }
+        iframe{
+            width: 970px;
+            height: 600px;
+            padding-left: 50px;
+        }
+    }
+/* FIN MEDIA QUERIES */

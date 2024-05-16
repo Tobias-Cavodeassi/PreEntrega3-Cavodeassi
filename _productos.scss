@@ -1,0 +1,21 @@
+.catalogo_list{
+    font-family: $font3;
+    margin: 15px;
+    text-align: center;
+    list-style: none;
+    font-style: italic;
+}
+
+/* IMAGENES PRODUCTOS */
+.tarjetas_productos{
+    display: grid;
+    background-color: $lightgrey;
+    background-image: linear-gradient(to bottom, $lightgrey , $darkgrey);
+}
+.tarjeta_container{
+    background-color: $lightgrey2;
+    background-image: linear-gradient(to bottom left, $white , $lightgrey);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+// TODO EL CSS DE LAS IMG ESTAN EN EL SASS DE MEDIA QUERIES //
